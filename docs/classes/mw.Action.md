@@ -107,7 +107,7 @@
          });
          // 添加Action1的监听
          const id = this.action1.add((player: player) => {
-             if(player.age = 18) {
+             if(player.age < 18) {
                  console.log("sorry , only those over 18 years old can enter")
              } else {
                  // 可以对player展开具体的实现逻辑
